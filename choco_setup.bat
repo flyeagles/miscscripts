@@ -77,6 +77,9 @@ choco install jdk10  %1
 REM HxD Hex Editor
 choco install HxD  %1
 
+REM Everything, file name search
+choco install everything %1
+
 REM wechat
 REM choco install wechat  %1
 REM failed
