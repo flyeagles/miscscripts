@@ -103,8 +103,10 @@ choco install smartmontools %1
 
 
 REM Strawberry Perl, for build tools
-choco install strawberryperl
+choco install strawberryperl  %1
 
+REM TreeSize Free, to show total size within a folder
+choco install treesizefree %1
 
 GOTO :END
 
